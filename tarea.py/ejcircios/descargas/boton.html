@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Escurridizo</title>
+    <style>
+        #boton {
+            position: absolute;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Presione el botón</h1>
+    <button id="boton">Botón</button>
+
+    <script>
+        const boton = document.getElementById('boton');
+
+        boton.addEventListener('mouseover', (event) => {
+            const x = Math.random() * (window.innerWidth - boton.offsetWidth);
+            const y = Math.random() * (window.innerHeight - boton.offsetHeight);
+            boton.style.left = `${x}px`;
+            boton.style.top = `${y}px`;
+        });
+    </script>
+</body>
+</html>

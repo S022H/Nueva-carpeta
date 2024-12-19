@@ -1,0 +1,20 @@
+los datos son:
+
+nombre: lucas
+apellido: dalto
+----------------------
+nombre: eze
+apellido: caballero
+----------------------
+nombre: leo
+apellido: isma
+----------------------
+nombre: cero
+apellido: dos
+----------------------
+nombre: german
+apellido: garmendia
+----------------------
+nombre: juan
+apellido: perez
+----------------------
